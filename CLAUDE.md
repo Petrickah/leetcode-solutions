@@ -46,6 +46,15 @@ Claude may set up a brand-new problem folder from a raw problem statement:
 - This scaffolding step never touches `solution.py`'s body beyond the
   template stub, and never writes anything resembling a solution.
 
+## Shared infrastructure (`templates/`)
+
+`templates/` is shared project infrastructure, not any one problem's
+solution — Claude may write and edit it freely (e.g. the `read_lines`
+input-reading decorator in `templates/solution_template.py`). This does
+**not** extend to a problem's own `solution.py`: Claude never edits it,
+including its I/O boilerplate — even a pure-plumbing fix belongs in
+`## Feedback`, for the user to apply themselves.
+
 ## Commands
 
 Run a solution: `python <platform>/<problem-slug>/solution.py`
