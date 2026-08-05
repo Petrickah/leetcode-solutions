@@ -22,8 +22,8 @@ This repo has a strict division of labor:
   suboptimal and why; don't hand over rewritten code or step-by-step
   pseudocode that amounts to solving it for them.
 - **Claude may update `notes.md` frontmatter** (`status`, `time_complexity`,
-  `space_complexity`, `date`) to reflect the review outcome. The `## Problema`
-  and `## Abordarea mea` sections are the user's own writing — never edit
+  `space_complexity`, `date`) to reflect the review outcome. The `## Problem`
+  and `## My Approach` sections are the user's own writing — never edit
   those.
 - The user rewrites `solution.py` based on the feedback; the cycle repeats
   until the note's `status` is set to `done`.

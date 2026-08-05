@@ -9,8 +9,8 @@ time_complexity:
 space_complexity:
 ---
 
-## Problema
+## Problem
 
-## Abordarea mea
+## My Approach
 
 ## Feedback
